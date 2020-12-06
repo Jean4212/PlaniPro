@@ -16,9 +16,6 @@ class Menu_Principal():
             '6' : self.salir
         }
 
-    def planilla():
-        pass
-
 class Menu():
 
     def __init__(self):        
