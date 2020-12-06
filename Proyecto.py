@@ -11,25 +11,10 @@ class programa():
         self.app.geometry('900x600+-8+0')
         self.app.resizable(0,0)
         self.app.configure(bg='#101417') 
-
-
-
-        
-       
-        #Label(self.app,se image=self.imagen).place(x=-2, y=0)      
-
-        s = ttk.Style()
-        s.configure('Kim.TLabel', background='#FBFCFD',)
-        a = ttk.Style()
-        a.configure('Kim2.TLabel', background='#101417')
-        b = ttk.Style()
-        b.configure('Kim3.TFrame', background='#FBFCFD')
-        p = ttk.Style()
-        p.configure('Kim.Treeview', background='#FBFCFD', font=('Trebuchet MS', 10))
-
+           
 
         # Crear Botones
-        self.boton1 = ttk.Label(self.app, cursor='hand2')   #, style='Kim.TLabel', image=self.imagen)
+        self.boton1 = ttk.Label(self.app, cursor='hand2')   
         self.boton2 = ttk.Label(self.app, cursor='hand2')
         self.boton3 = ttk.Label(self.app, cursor='hand2')
         self.boton4 = ttk.Label(self.app, cursor='hand2')
@@ -50,8 +35,8 @@ class programa():
         self.ventana1_boton1 = ttk.Button(self.ventana1,text='Nuevo',cursor='hand2')
 
         #self.ventana1_boton1.bind('<Boton-1>',crear)
-        hola = 'mama'
-        hola2 = 'papa'
+        #hola = 'mama'
+        #hola2 = 'papa'
         #print("gdgdgd %s y %s" %(hola,hola2))
         #print("gdgdgd {} y {}".format(hola,hola2))
 
