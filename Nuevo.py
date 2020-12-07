@@ -22,6 +22,9 @@ class Menu_Principal():
     def ffff(self):
         print('fgdsfdsf')
 
+    def ffff(self):
+        print('mama uno')
+
 class Menu():
 
     def __init__(self):        
