@@ -16,6 +16,12 @@ class Menu_Principal():
             '6' : self.salir
         }
 
+    def mesage(self):
+        print("fdfds")
+
+    def ffff(self):
+        print('fgdsfdsf')
+
 class Menu():
 
     def __init__(self):        
