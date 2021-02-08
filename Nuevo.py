@@ -124,7 +124,7 @@ class Menu():
             self.consultar()
 
     def trabajadoresregistrados(self):
-        query = f'SELECT * FROM trabajadores'
+        query = 'SELECT * FROM trabajadores'
         resultado = self.__conexion(query,False,True)  
         if resultado:
             print('')
